@@ -1,7 +1,24 @@
 # SKY CHALLENGE API
 
 Prueba técnica - SKY
-[Swagger - http://localhost:3000/docs](http://localhost:3000/docs)
+- [Swagger -> http://localhost:3000/docs](http://localhost:3000/docs)
+
+## Config
+Crear los archivos .env, .stag.env y .prod.env con las variables:
+
+```bash
+URL_TEST=
+PATTERN=
+```
+
+Tambien crear el archivo rabbitmq.env con las variables: 
+
+```bash
+RABBITMQ_USER=
+RABBITMQ_PASSWORD=
+RABBITMQ_HOST=
+RABBITMQ_QUEUE_NAME=
+```
 
 ## Endpoints 🚀
 
@@ -16,4 +33,4 @@ http://localhost:3000/test/users
 
 ---
 
-⌨️ con ❤️ por [Williams Galeano](https://github.com/willyGaleano) 😊
+⌨️ con ❤️ por [Williams Galeano](https://github.com/willyGaleano)
